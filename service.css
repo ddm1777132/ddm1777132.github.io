@@ -1,0 +1,31 @@
+body, html {
+    margin: 0;
+    padding:0;
+    height: 100vh
+}
+
+.parallax {     
+   background-image: url("img/hands.jpg");
+    height: 100%; 
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.jumbotron {
+    margin-top: 29%;
+}
+
+#content {
+    margin-top: 42%;
+    background-color: rgba(255, 255, 255, 0.6); 
+}
+
+.main-footer {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.main-footer>p {
+    color: #000;
+}

@@ -1,0 +1,85 @@
+
+body, html {
+    margin: 0;
+    padding:0;
+    height: 100vh
+}
+
+.parallax { 
+    background-image: url("img/daniel (1)/senior_5.jpg");
+    height: 100%; 
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#landingcontent {
+    margin-top: 22%;
+    padding-bottom: 3%;
+}
+
+#landingdisp {
+    color: #000;
+}
+
+#landingsub {
+    font-weight: 400;
+    color: #000;
+}
+
+#aboutmecontent {
+    margin-top:15%;
+    background-color: rgba(255, 255, 255, 0.6);
+    margin-bottom: 15px;
+}
+
+.btn:focus {
+    outline: none ! important;
+    box-shadow: none;
+}
+
+.section-title {
+    text-align: center;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    color: #000;
+}
+
+#aboutmecontent>p {
+    color: #000;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+#p1 {
+    border-left: 4px solid #000;
+    padding-left: 10px;
+}
+
+.main-footer {
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+.main-footer>p {
+    color: #000;
+}
+
+#hobby {
+    text-align: center;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    color: #000;
+}
+
+#photolink {
+    text-decoration: none;
+    color: #fff;
+}
+
+#photo {
+    text-transform: uppercase;
+}
+
